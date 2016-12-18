@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E50A45E1D7125570095E2F9 /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E50A45D1D7125570095E2F9 /* model.m */; };
+		5E50A4671D715F570095E2F9 /* appView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E50A4661D715F570095E2F9 /* appView.m */; };
+		5E50A4691D7263580095E2F9 /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E50A4681D7263580095E2F9 /* app.plist */; };
 		5EAC1F931D706E6200BF305B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC1F921D706E6200BF305B /* main.m */; };
 		5EAC1F961D706E6200BF305B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC1F951D706E6200BF305B /* AppDelegate.m */; };
 		5EAC1F991D706E6200BF305B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC1F981D706E6200BF305B /* ViewController.m */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E50A45C1D7125570095E2F9 /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		5E50A45D1D7125570095E2F9 /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
+		5E50A4651D715F570095E2F9 /* appView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appView.h; sourceTree = "<group>"; };
+		5E50A4661D715F570095E2F9 /* appView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appView.m; sourceTree = "<group>"; };
+		5E50A4681D7263580095E2F9 /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
 		5EAC1F8E1D706E6200BF305B /* 01-九宫格.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-九宫格.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAC1F921D706E6200BF305B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EAC1F941D706E6200BF305B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +113,11 @@
 				5EAC1F951D706E6200BF305B /* AppDelegate.m */,
 				5EAC1F971D706E6200BF305B /* ViewController.h */,
 				5EAC1F981D706E6200BF305B /* ViewController.m */,
+				5E50A45C1D7125570095E2F9 /* model.h */,
+				5E50A45D1D7125570095E2F9 /* model.m */,
+				5E50A4681D7263580095E2F9 /* app.plist */,
+				5E50A4651D715F570095E2F9 /* appView.h */,
+				5E50A4661D715F570095E2F9 /* appView.m */,
 				5EAC1F9A1D706E6200BF305B /* Main.storyboard */,
 				5EAC1F9D1D706E6200BF305B /* Assets.xcassets */,
 				5EAC1F9F1D706E6200BF305B /* LaunchScreen.storyboard */,
@@ -243,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E50A4691D7263580095E2F9 /* app.plist in Resources */,
 				5EAC1FA11D706E6200BF305B /* LaunchScreen.storyboard in Resources */,
 				5EAC1F9E1D706E6200BF305B /* Assets.xcassets in Resources */,
 				5EAC1F9C1D706E6200BF305B /* Main.storyboard in Resources */,
@@ -273,6 +287,8 @@
 				5EAC1F991D706E6200BF305B /* ViewController.m in Sources */,
 				5EAC1F961D706E6200BF305B /* AppDelegate.m in Sources */,
 				5EAC1F931D706E6200BF305B /* main.m in Sources */,
+				5E50A45E1D7125570095E2F9 /* model.m in Sources */,
+				5E50A4671D715F570095E2F9 /* appView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +512,7 @@
 				5EAC1FBD1D706E6200BF305B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EAC1FBE1D706E6200BF305B /* Build configuration list for PBXNativeTarget "01-九宫格Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +521,7 @@
 				5EAC1FC01D706E6200BF305B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EAC1FC11D706E6200BF305B /* Build configuration list for PBXNativeTarget "01-九宫格UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +530,7 @@
 				5EAC1FC31D706E6200BF305B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
